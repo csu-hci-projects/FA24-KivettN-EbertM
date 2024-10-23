@@ -1414,3 +1414,8 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.10.23-05.39.57:343][784]LogSlate: Window 'Content Browser' being destroyed
 [2024.10.23-05.39.57:354][784]LogSlate: Window 'Content Browser' being destroyed
 [2024.10.23-05.41.38:498][ 88]LogDerivedDataCache: C:/Users/nkive/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.046 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 391 files in 717 folders with total size 12 MiB.
+[2024.10.23-05.43.02:468][340]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Yeti Nano), InstanceID=1
+[2024.10.23-05.43.02:701][340]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=52964
+[2024.10.23-05.43.03:035][341]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ea44b7e4-23d6-4eb0-a6c3-d83e93896c7e}, Name=Speakers (Yeti Nano)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=104.77
+[2024.10.23-05.43.03:035][341]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.10.23-05.43.03:036][341]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
