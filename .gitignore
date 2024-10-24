@@ -57,6 +57,3 @@ Plugins/*/Intermediate/*
 
 DerivedDataCache/*
 
-*.ini
-*.uasset
-*.log
