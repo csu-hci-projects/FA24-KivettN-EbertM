@@ -7,11 +7,12 @@
 			"files": [
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap",
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/StartMenu.uasset",
-				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerUi.uasset",
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset",
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset",
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
+				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/Bp_target.uasset",
+				"C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerUi.uasset",
 				"C:/Users/nkive/OneDrive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
 			]
 		}
