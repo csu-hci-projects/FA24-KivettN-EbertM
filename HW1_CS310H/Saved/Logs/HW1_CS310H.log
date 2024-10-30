@@ -1521,3 +1521,810 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.30-07.29.41:018][614]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2024.10.30-07.29.42:257][621]LogSlate: Window 'Project Settings' being destroyed
 [2024.10.30-07.29.42:381][621]LogSlate: Window 'Project Settings' being destroyed
+[2024.10.30-07.34.11:990][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.10.30-07.34.12:096][  4]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.12:096][  4]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.30-07.34.12:096][  4]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.30-07.34.12:096][  4]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.30-07.34.12:407][  4]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.30-07.34.12:407][  4]LogWorldPartition: Display: WorldPartition initialize took 310 ms (total: 568 ms)
+[2024.10.30-07.34.12:409][  4]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.10.30-07.34.12:409][  4]Cmd: MAP LOAD FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.30-07.34.12:409][  4]LightingResults: New page: Lighting Build
+[2024.10.30-07.34.12:409][  4]LoadErrors: New page: Loading map: FirstPersonMap.umap
+[2024.10.30-07.34.12:456][  4]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.12:456][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.12:457][  4]MapCheck: New page: Map Check
+[2024.10.30-07.34.12:457][  4]LightingResults: New page: Lighting Build
+[2024.10.30-07.34.12:460][  4]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-07.34.12:462][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.10.30-07.34.12:465][  4]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.12:466][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.12:466][  4]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.30-07.34.12:473][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.10.30-07.34.12:476][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.10.30-07.34.12:484][  4]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.10.30-07.34.12:484][  4]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.12:484][  4]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.34.12:484][  4]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.10.30-07.34.12:485][  4]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.10.30-07.34.12:485][  4]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.30-07.34.12:485][  4]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.30-07.34.12:512][  4]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.10.30-07.34.12:512][  4]LogWorldPartition: Display: WorldPartition initialize took 28 ms (total: 596 ms)
+[2024.10.30-07.34.12:524][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.30-07.34.12:530][  4]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.30-07.34.12:533][  4]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.30-07.34.12:533][  4]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.253ms to complete.
+[2024.10.30-07.34.32:536][204]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/StartMenu.StartMenu
+[2024.10.30-07.34.32:547][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.32:547][204]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.34.32:556][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.32:556][204]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.34.32:561][204]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.10.30-07.34.32:563][204]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.10.30-07.34.33:984][204]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.10.30-07.34.33:992][204]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.10.30-07.34.33:997][204]LogSlate: Took 0.004409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.10.30-07.34.49:447][700]LogSlate: Window 'StartMenu' being destroyed
+[2024.10.30-07.34.49:496][700]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.49:496][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.49:501][700]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.49:501][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.54:851][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.10.30-07.34.54:881][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.54:882][281]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level_1.Level_1
+[2024.10.30-07.34.54:882][281]Cmd: MAP LOAD FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.10.30-07.34.54:882][281]LightingResults: New page: Lighting Build
+[2024.10.30-07.34.54:882][281]LoadErrors: New page: Loading map: Level_1.umap
+[2024.10.30-07.34.54:896][281]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.54:896][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.54:899][281]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.10.30-07.34.54:899][281]MapCheck: New page: Map Check
+[2024.10.30-07.34.54:899][281]LightingResults: New page: Lighting Build
+[2024.10.30-07.34.54:912][281]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-07.34.54:916][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.10.30-07.34.54:918][281]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.34.54:918][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.34.54:931][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.10.30-07.34.54:943][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.10.30-07.34.54:948][281]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_1'.
+[2024.10.30-07.34.54:948][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.34.54:949][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.34.54:949][281]LogAIModule: Creating AISystem for world Level_1
+[2024.10.30-07.34.54:960][281]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.10.30-07.34.54:975][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.10.30-07.34.54:978][281]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.10.30-07.34.54:978][281]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2024.10.30-07.37.37:061][554]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.10.30-07.41.08:919][548]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.10.30-07.41.08:926][548]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.10.30-07.41.08:931][548]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.10.30-07.41.08:988][549]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.10.30-07.41.15:840][207]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PlayerUi
+[2024.10.30-07.41.15:862][207]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.10.30-07.41.17:101][322]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/PlayerUi.PlayerUi
+[2024.10.30-07.41.17:101][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.41.17:101][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.41.17:110][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-07.41.17:110][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-07.44.21:921][144]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-07.46.28:083][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.10.30-07.46.28:096][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Level_1_Auto1
+[2024.10.30-07.46.28:096][268]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Level_1_Auto155FF592B4049AF9CA0D6CC86A050764E.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Autosaves/Game/Levels/Level_1_Auto1.umap'
+[2024.10.30-07.46.28:097][268]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Autosaves/Game/Levels/Level_1_Auto1.umap is in the /Temp path, will not scan.
+[2024.10.30-07.46.28:097][268]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_1' took 0.031
+[2024.10.30-07.46.28:097][268]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2024.10.30-07.46.28:097][268]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/UI/PlayerUi] ([2] browsable assets)...
+[2024.10.30-07.46.28:144][268]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/UI/PlayerUi.PlayerUi]
+[2024.10.30-07.46.28:144][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/PlayerUi]
+[2024.10.30-07.46.28:150][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/PlayerUi_Auto1
+[2024.10.30-07.46.28:150][268]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerUi_Auto1F4B4FFEF49FE5888B4916B8B499BE45F.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Autosaves/Game/UI/PlayerUi_Auto1.uasset'
+[2024.10.30-07.46.28:150][268]LogFileHelpers: Auto-saving content packages took 0.053
+[2024.10.30-07.47.09:165][402]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:166][402]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:168][402]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:223][403]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:245][404]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:247][404]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:293][405]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:303][405]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:315][406]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:366][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:375][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:387][408]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:390][408]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:458][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:517][411]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:587][413]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:600][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:603][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:648][415]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:649][415]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:669][416]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:672][416]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:719][417]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:720][417]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:730][417]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:744][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:796][419]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:797][419]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:798][419]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:808][419]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:819][420]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:822][420]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:869][421]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:890][422]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:890][422]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:893][422]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:942][423]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:953][423]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:967][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:970][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:973][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:976][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:978][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:981][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:984][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:986][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:987][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.09:990][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:043][425]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:056][425]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:069][426]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:075][426]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:129][427]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:154][428]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:213][429]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:277][431]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:279][431]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:291][431]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:307][432]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:361][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:365][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:368][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:371][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:374][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:376][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:379][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:382][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:384][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:386][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:388][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:390][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:393][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:394][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:397][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:400][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:402][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:404][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:406][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:409][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:411][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:414][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:416][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:418][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:421][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:423][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:425][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:428][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:429][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:433][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:436][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:438][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:440][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:441][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:444][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:447][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:449][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:451][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:454][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:456][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:458][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:460][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:463][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:465][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:467][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:470][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:472][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:474][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:477][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:479][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:481][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:483][433]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:504][434]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:510][434]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:560][435]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:572][435]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:645][437]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:661][438]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:665][438]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:667][438]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:672][438]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:723][439]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:747][440]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:799][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:801][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:805][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:808][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:811][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:813][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:816][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:819][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:822][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:826][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:829][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:832][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:835][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:838][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:840][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:842][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:844][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:847][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:849][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:851][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:853][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:856][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:858][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:860][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:871][441]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:884][442]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:887][442]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:943][443]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:948][443]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:960][443]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:975][444]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:977][444]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.10:985][444]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:036][445]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:039][445]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:061][446]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:066][446]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:126][447]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:203][449]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:218][450]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:274][451]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:297][452]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:300][452]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:305][452]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:368][453]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:382][454]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:436][455]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:448][455]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:463][456]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:514][457]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:537][458]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:543][458]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:592][459]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:595][459]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:598][459]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:609][459]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:623][460]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:626][460]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:629][460]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:683][461]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:696][461]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:710][462]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:783][464]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:842][465]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:914][467]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.11:932][468]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:003][470]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:009][470]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:059][471]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:071][471]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:133][473]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:145][473]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:158][474]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:164][474]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:215][475]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:239][476]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:297][477]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:310][478]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:363][479]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:366][479]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:370][479]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:372][479]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:384][479]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:396][480]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:399][480]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:401][480]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:407][480]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:455][481]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:458][481]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:481][482]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:485][482]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:538][483]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:550][483]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:563][484]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:624][485]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:639][486]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:712][488]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:770][489]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:786][490]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:789][490]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:843][491]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:855][491]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:869][492]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:873][492]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:926][493]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.12:950][494]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:010][495]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:024][496]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:026][496]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:080][497]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:092][497]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:107][498]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:181][500]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:240][501]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:314][503]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:330][504]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:401][506]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:453][507]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:465][507]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:479][508]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:543][509]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:558][510]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:631][512]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:689][513]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:752][515]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:764][515]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:780][516]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.47.13:857][518]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-07.48.27:705][385]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-07.49.10:563][775]BlueprintLog: New page: Compile PlayerUi
+[2024.10.30-07.49.13:332][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.10.30-07.49.22:004][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-07.49.22:034][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerUi" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerUi.uasset" SILENT=true
+[2024.10.30-07.49.22:037][380]LogSavePackage: Moving output files for package: /Game/UI/PlayerUi
+[2024.10.30-07.49.22:037][380]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerUi17E7A9AD433F16D040CA35B07B226F96.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerUi.uasset'
+[2024.10.30-07.49.22:050][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 202 ms)
+[2024.10.30-07.49.22:050][380]AssetCheck: New page: Asset Save: PlayerUi
+[2024.10.30-07.49.22:050][380]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerUi.PlayerUi
+[2024.10.30-07.51.16:956][430]BlueprintLog: New page: Compile PlayerUi
+[2024.10.30-07.51.16:978][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.10.30-07.52.20:823][973]BlueprintLog: New page: Compile PlayerUi
+[2024.10.30-07.52.20:859][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.10.30-07.54.23:833][420]BlueprintLog: New page: Compile PlayerUi
+[2024.10.30-07.54.23:860][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.10.30-07.56.38:561][373]LogSlate: Took 0.007551 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.10.30-07.58.35:242][862]LogSlate: Window 'PlayerUi' being destroyed
+[2024.10.30-07.58.35:255][862]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.58.35:255][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.58.35:262][862]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-07.58.35:262][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-07.58.39:395][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.10.30-07.58.40:496][198]LogSlate: Window 'Delete Assets' being destroyed
+[2024.10.30-07.58.40:516][198]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/UI/PlayerUi.PlayerUi
+	Asset Type: WidgetBlueprint
+[2024.10.30-07.58.40:937][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.10.30-07.58.40:957][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.10.30-07.58.40:975][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.30-08.19.19:881][357]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.10.30-08.19.35:023][ 57]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.10.30-08.19.35:030][ 57]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.10.30-08.19.35:036][ 57]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.10.30-08.19.35:061][ 59]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.10.30-08.19.38:912][436]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_platform
+[2024.10.30-08.19.38:918][436]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.10.30-08.19.40:137][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.19.40:138][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.19.40:138][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.19.40:352][554]LogViewport: Scene viewport resized to 1520x1280, mode Windowed.
+[2024.10.30-08.19.52:635][361]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.20.20:206][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.20.20:254][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_platform" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset" SILENT=true
+[2024.10.30-08.20.20:257][262]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_platform
+[2024.10.30-08.20.20:257][262]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_platform22A8089D4F2328A091CBA38B45C5631D.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset'
+[2024.10.30-08.20.20:268][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 265 ms)
+[2024.10.30-08.20.20:269][262]AssetCheck: New page: Asset Save: BP_platform
+[2024.10.30-08.20.20:269][262]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.20.21:631][356]LogViewport: Scene viewport resized to 2032x1280, mode Windowed.
+[2024.10.30-08.20.22:607][424]BlueprintLog: New page: Compile BP_platform
+[2024.10.30-08.20.22:635][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.10.30-08.21.13:746][727]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to STreeView< TSharedPtr<FGraphActionNode> > [SGraphActionMenu.cpp(356)].
+[2024.10.30-08.21.13:775][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.10.30-08.21.13:781][727]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_1' took 0.023
+[2024.10.30-08.21.13:782][727]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/MyBlueprints/BP_platform] ([2] browsable assets)...
+[2024.10.30-08.21.13:825][727]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyBlueprints/BP_platform.BP_platform]
+[2024.10.30-08.21.13:825][727]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyBlueprints/BP_platform]
+[2024.10.30-08.21.13:828][727]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/MyBlueprints/BP_platform_Auto2
+[2024.10.30-08.21.13:829][727]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_platform_Auto25C73E629455C20AA2540C3B08CE5E7F9.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Autosaves/Game/MyBlueprints/BP_platform_Auto2.uasset'
+[2024.10.30-08.21.13:829][727]LogFileHelpers: Auto-saving content packages took 0.048
+[2024.10.30-08.24.06:912][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.24.07:003][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_platform" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset" SILENT=true
+[2024.10.30-08.24.07:007][124]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_platform
+[2024.10.30-08.24.07:007][124]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_platform75697E2B4DE821B2A3EE0B882783C5FE.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset'
+[2024.10.30-08.24.07:015][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 368 ms)
+[2024.10.30-08.24.07:017][124]AssetCheck: New page: Asset Save: BP_platform
+[2024.10.30-08.24.07:017][124]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.24.08:003][207]BlueprintLog: New page: Compile BP_platform
+[2024.10.30-08.24.08:036][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.10.30-08.24.11:678][509]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.24.11:687][509]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.24.11:716][509]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.24.11:716][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.24.19:296][145]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Level_1.Level_1:PersistentLevel.Level
+[2024.10.30-08.24.19:296][145]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.24.19:296][145]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.24.55:418][933]LogDerivedDataCache: C:/Users/nkive/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.059 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 416 files in 760 folders with total size 12 MiB.
+[2024.10.30-08.26.11:325][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.26.11:403][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.10.30-08.26.11:418][412]LogSavePackage: Moving output files for package: /Game/Levels/Level_1
+[2024.10.30-08.26.11:419][412]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Level_1B8A1C45A4664284BDEBB22ABACD1E939.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap'
+[2024.10.30-08.26.11:425][412]LogFileHelpers: Saving map 'Level_1' took 0.059
+[2024.10.30-08.26.11:433][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 477 ms)
+[2024.10.30-08.26.11:435][412]AssetCheck: New page: Asset Save: Level_1
+[2024.10.30-08.26.11:435][412]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_1.Level_1
+[2024.10.30-08.28.12:518][ 12]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.28.12:525][ 12]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.28.12:527][ 12]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.28.12:527][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.28.14:471][181]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.28.14:472][181]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.28.14:472][181]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.28.31:507][551]BlueprintLog: New page: Compile BP_platform
+[2024.10.30-08.28.31:535][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.10.30-08.28.31:837][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.28.31:914][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_platform" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset" SILENT=true
+[2024.10.30-08.28.31:918][571]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_platform
+[2024.10.30-08.28.31:918][571]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_platform631220BA4381D61D91D6359A1DD6338D.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset'
+[2024.10.30-08.28.31:926][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 567 ms)
+[2024.10.30-08.28.31:927][571]AssetCheck: New page: Asset Save: BP_platform
+[2024.10.30-08.28.31:927][571]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.28.34:398][775]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.28.34:406][775]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.28.34:410][775]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.28.34:410][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.28.37:871][ 83]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Level_1.Level_1:PersistentLevel.Level
+[2024.10.30-08.28.37:872][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.28.37:872][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.29.34:379][649]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.29.34:384][649]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.29.34:386][649]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.29.34:387][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.29.37:512][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.29.37:512][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.29.37:512][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.29.59:006][594]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.29.59:012][594]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.29.59:061][594]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.29.59:061][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.31.17:792][ 63]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.31.17:792][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.31.17:793][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.31.19:407][181]BlueprintLog: New page: Compile BP_platform
+[2024.10.30-08.31.19:440][181]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.10.30-08.31.20:009][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.31.20:065][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBlueprints/BP_platform" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset" SILENT=true
+[2024.10.30-08.31.20:069][221]LogSavePackage: Moving output files for package: /Game/MyBlueprints/BP_platform
+[2024.10.30-08.31.20:069][221]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_platform1F0FB3494C6C96B7C7A7F3B26559A3FF.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/MyBlueprints/BP_platform.uasset'
+[2024.10.30-08.31.20:075][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 633 ms)
+[2024.10.30-08.31.20:076][221]AssetCheck: New page: Asset Save: BP_platform
+[2024.10.30-08.31.20:076][221]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/MyBlueprints/BP_platform.BP_platform
+[2024.10.30-08.31.42:204][132]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.31.42:209][132]LogSlate: Window 'BP_platform' being destroyed
+[2024.10.30-08.31.42:246][132]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.31.42:246][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.31.44:334][317]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Level_1.Level_1:PersistentLevel.Level
+[2024.10.30-08.31.44:334][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.31.44:334][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.34.22:821][ 96]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.34.22:827][ 96]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.34.22:876][ 96]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.34.22:876][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.34.25:913][375]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_platform.BP_platform_C
+[2024.10.30-08.34.25:913][375]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_platform.BP_platform_C
+[2024.10.30-08.34.25:914][375]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_platform.BP_platform as actor: BP_platform_C /Game/Levels/Level_1.Level_1:PersistentLevel.BP_platform_C_0
+[2024.10.30-08.34.25:914][375]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_platform.BP_platform as actor: BP_platform_C /Game/Levels/Level_1.Level_1:PersistentLevel.BP_platform_C_0
+[2024.10.30-08.34.26:745][437]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_platform.BP_platform_C
+[2024.10.30-08.34.26:745][437]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/MyBlueprints/BP_platform.BP_platform_C
+[2024.10.30-08.34.26:747][437]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_platform.BP_platform as actor: BP_platform_C /Game/Levels/Level_1.Level_1:PersistentLevel.BP_platform_C_1
+[2024.10.30-08.34.26:748][437]LogActorFactory: Actor Factory spawned Blueprint /Game/MyBlueprints/BP_platform.BP_platform as actor: BP_platform_C /Game/Levels/Level_1.Level_1:PersistentLevel.BP_platform_C_1
+[2024.10.30-08.34.31:132][849]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Level_1.Level_1:PersistentLevel.Level
+[2024.10.30-08.34.31:133][849]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.34.31:133][849]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.34.39:699][499]BlueprintLog: New page: Compile Level
+[2024.10.30-08.34.39:728][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.10.30-08.34.40:685][577]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.34.40:741][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.10.30-08.34.40:753][577]LogSavePackage: Moving output files for package: /Game/Levels/Level_1
+[2024.10.30-08.34.40:754][577]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Level_1468C21E54A3368E928103FB6041DAA43.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap'
+[2024.10.30-08.34.40:761][577]LogFileHelpers: Saving map 'Level_1' took 0.046
+[2024.10.30-08.34.40:767][577]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 715 ms)
+[2024.10.30-08.34.40:768][577]AssetCheck: New page: Asset Save: Level_1
+[2024.10.30-08.34.40:768][577]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_1.Level_1
+[2024.10.30-08.34.54:659][669]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.34.54:663][669]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.34.54:701][669]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.34.54:701][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.34.56:476][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.34.56:550][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.10.30-08.34.56:563][841]LogSavePackage: Moving output files for package: /Game/Levels/Level_1
+[2024.10.30-08.34.56:564][841]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Level_1F2AD914A44F14B7465C57EB6CD1B8694.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap'
+[2024.10.30-08.34.56:571][841]LogFileHelpers: Saving map 'Level_1' took 0.048
+[2024.10.30-08.34.56:585][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 823 ms)
+[2024.10.30-08.34.56:586][841]AssetCheck: New page: Asset Save: Level_1
+[2024.10.30-08.34.56:586][841]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_1.Level_1
+[2024.10.30-08.34.57:721][953]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-08.34.57:727][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-08.34.57:727][953]PIE: New page: PIE session: Level_1 (Oct 29, 2024, 8:34:57 PM)
+[2024.10.30-08.34.57:761][953]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2024.10.30-08.34.57:763][953]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.10.30-08.34.57:773][954]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2024.10.30-08.34.57:775][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001981s)
+[2024.10.30-08.34.57:775][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.002021s)
+[2024.10.30-08.34.57:791][954]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.10.30-08.34.57:792][954]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.34.57:793][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.34.57:793][954]LogAIModule: Creating AISystem for world Level_1
+[2024.10.30-08.34.57:793][954]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2024.10.30-08.34.57:793][954]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-08.34.57:793][954]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-08.34.57:793][954]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-08.34.57:794][954]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-08.34.57:794][954]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-08.34.57:794][954]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-08.34.57:796][954]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-08.34.57:845][954]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.10.30-08.34.57:845][954]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-08.34.57:845][954]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-08.34.57:845][954]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-08.34.57:846][954]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.10.30-08.34.57:846][954]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.10.30-08.34.57:848][954]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.10.30-08.34.57:848][954]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.10.30-08.34.57:848][954]LogInit: FAudioDevice initialized with ID 5.
+[2024.10.30-08.34.57:848][954]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level_1'.
+[2024.10.30-08.34.57:848][954]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.30-08.34.57:851][954]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-08.34.57:852][954]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2024.10.30-02.34.57
+[2024.10.30-08.34.57:852][954]LogWorld: Bringing up level for play took: 0.000914
+[2024.10.30-08.34.57:854][954]PIE: Server logged in
+[2024.10.30-08.34.57:854][954]PIE: Play in editor total start time 0.127 seconds.
+[2024.10.30-08.34.59:855][156]LogBlueprintUserMessages: [BP_Pickup_Rifle_C_0] Cast to BP_FirstPersonCharacter FAILED
+[2024.10.30-08.35.05:662][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-08.35.05:662][743]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_1
+[2024.10.30-08.35.05:662][743]LogWorld: UWorld::CleanupWorld for Level_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.35.05:662][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.35.05:669][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-08.35.05:674][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.35.05:684][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-08.35.05:684][743]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.30-08.35.05:684][743]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.30-08.35.05:687][743]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.30-08.35.05:695][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.10.30-08.35.05:755][744]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.10.30-08.35.12:729][417]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Level_1.Level_1:PersistentLevel.Level
+[2024.10.30-08.35.12:729][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.35.12:729][417]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.35.28:897][674]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.35.28:902][674]LogSlate: Window 'Level' being destroyed
+[2024.10.30-08.35.28:904][674]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.35.28:904][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.35.29:797][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.35.29:868][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.10.30-08.35.29:883][757]LogSavePackage: Moving output files for package: /Game/Levels/Level_1
+[2024.10.30-08.35.29:883][757]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/Level_14D364DCA45C76A39B8662C9F8770410E.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/Levels/Level_1.umap'
+[2024.10.30-08.35.29:889][757]LogFileHelpers: Saving map 'Level_1' took 0.052
+[2024.10.30-08.35.29:902][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 930 ms)
+[2024.10.30-08.35.29:905][757]AssetCheck: New page: Asset Save: Level_1
+[2024.10.30-08.35.29:905][757]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_1.Level_1
+[2024.10.30-08.37.41:075][978]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.10.30-08.37.41:084][978]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2024.10.30-08.37.41:090][978]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2024.10.30-08.37.41:102][979]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2024.10.30-08.37.48:448][693]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PlayerInterfacer
+[2024.10.30-08.37.48:455][693]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2024.10.30-08.37.49:923][823]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.37.49:923][823]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.37.49:924][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.37.49:933][823]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.37.49:933][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.39.16:043][648]LogSlate: Took 0.007024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.10.30-08.39.29:205][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.39.29:242][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.39.29:246][557]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.39.29:246][557]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacer0184655440C12A5B439B1DBF67989F7D.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.39.29:256][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 982 ms)
+[2024.10.30-08.39.29:257][557]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.39.29:257][557]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.39.46:479][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.39.46:511][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.39.46:515][733]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.39.46:516][733]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacerE625AF9349D369A6AB05F893F9315C22.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.39.46:526][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 1.02 sec)
+[2024.10.30-08.39.46:527][733]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.39.46:527][733]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.41.13:560][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.41.13:599][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.41.13:603][406]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.41.13:603][406]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacer2A9C0FBF48ED868A4DA811B63C72D26E.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.41.13:612][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.08 sec)
+[2024.10.30-08.41.13:613][406]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.41.13:613][406]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.41.37:343][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.41.37:380][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.41.37:384][904]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.41.37:385][904]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacer54A94B654CA8890C2C1B0F8FE7B2C2E5.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.41.37:395][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.13 sec)
+[2024.10.30-08.41.37:396][904]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.41.37:396][904]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.41.41:408][144]BlueprintLog: New page: Compile PlayerInterfacer
+[2024.10.30-08.41.41:440][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.10.30-08.41.42:092][176]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.41.42:128][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.41.42:133][176]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.41.42:134][176]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacerA13D52C1493BAD1A74398CAF6114D36F.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.41.42:143][176]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.18 sec)
+[2024.10.30-08.41.42:144][176]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.41.42:144][176]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.41.43:094][234]LogSlate: Window 'PlayerInterfacer' being destroyed
+[2024.10.30-08.41.43:142][234]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.41.43:142][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.41.43:148][234]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.41.43:148][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.41.56:395][105]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.41.56:395][105]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.41.56:395][105]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.43.08:451][308]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.30-08.43.08:523][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.10.30-08.43.20:950][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.43.21:040][148]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.30-08.43.21:041][148]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_FirstPersonCharacter6E97E14045BFF335B824B59338BFB5BF.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.30-08.43.21:051][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 1.28 sec)
+[2024.10.30-08.43.21:052][148]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.30-08.43.21:052][148]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.43.21:980][211]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.30-08.43.22:056][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.10.30-08.43.25:890][477]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.30-08.43.25:895][477]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.30-08.43.25:898][477]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.43.25:898][477]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.43.33:127][125]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.43.33:129][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.43.33:129][125]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.43.33:143][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.43.33:143][125]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.45.10:544][238]LogEditorTransaction: Undo Move Anchor
+[2024.10.30-08.46.06:860][560]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.46.06:893][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.46.06:898][560]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.46.06:898][560]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacerB247F4D94B76489E92E2C58B95F08CA7.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.46.06:908][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.33 sec)
+[2024.10.30-08.46.06:909][560]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.46.06:909][560]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.46.11:656][825]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:657][825]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:659][825]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:761][826]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:776][826]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:794][827]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:863][828]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:864][828]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:882][828]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:897][829]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:901][829]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.11:969][830]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:003][831]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:006][831]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:073][832]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:091][832]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:106][833]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:177][834]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:194][834]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:210][835]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:313][837]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:396][838]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:494][840]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:511][841]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:581][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:582][842]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:615][843]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:618][843]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:685][844]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:687][844]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:704][844]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:719][845]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:720][845]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:721][845]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:789][846]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:790][846]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:807][846]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:822][847]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:823][847]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:826][847]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:893][848]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:927][849]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.12:992][850]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.13:012][850]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.46.13:027][851]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.10.30-08.47.28:926][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.47.28:969][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.47.34:883][ 60]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.47.34:883][ 60]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacerF68207D34481008D14F56EA0E76F6209.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.47.34:894][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.96 sec (total: 7.30 sec)
+[2024.10.30-08.47.34:896][ 60]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.47.34:896][ 60]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.47.36:663][177]BlueprintLog: New page: Compile PlayerInterfacer
+[2024.10.30-08.47.36:698][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.10.30-08.47.39:025][355]LogSlate: Window 'PlayerInterfacer' being destroyed
+[2024.10.30-08.47.39:029][355]LogSlate: Window 'PlayerInterfacer' being destroyed
+[2024.10.30-08.47.39:098][355]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.47.39:098][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.47.39:103][355]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.47.39:103][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.47.48:062][114]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.47.48:062][114]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.47.48:062][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.49.10:190][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.49.10:273][611]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.30-08.49.10:274][611]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_FirstPersonCharacter5A027B51412766CF90B426B65918D763.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.30-08.49.10:284][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 7.39 sec)
+[2024.10.30-08.49.10:285][611]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.30-08.49.10:285][611]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.49.11:040][661]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.10.30-08.49.11:117][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.10.30-08.49.23:540][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.49.23:650][481]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.10.30-08.49.23:650][481]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_FirstPersonCharacterFA636E7745E12D99DFB7A4BA3DE7516C.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.10.30-08.49.23:660][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 7.51 sec)
+[2024.10.30-08.49.23:661][481]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.10.30-08.49.23:661][481]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.49.37:063][361]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.30-08.49.37:070][361]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2024.10.30-08.49.37:103][361]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.49.37:103][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.49.40:921][644]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.49.40:923][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.49.40:923][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.49.40:933][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.49.40:933][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.51.25:955][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.51.26:015][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.51.26:023][658]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.51.26:023][658]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacerE14619884CE3E88AD3F4859AB429B82F.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.51.26:032][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 7.59 sec)
+[2024.10.30-08.51.26:033][658]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.51.26:033][658]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.51.42:242][816]BlueprintLog: New page: Compile PlayerInterfacer
+[2024.10.30-08.51.42:284][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.10.30-08.51.43:250][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.51.43:299][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PlayerInterfacer" FILE="C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset" SILENT=true
+[2024.10.30-08.51.43:306][882]LogSavePackage: Moving output files for package: /Game/UI/PlayerInterfacer
+[2024.10.30-08.51.43:307][882]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/PlayerInterfacer8F2AD00B4D0300AE068D2DA6D68B5C56.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/UI/PlayerInterfacer.uasset'
+[2024.10.30-08.51.43:314][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 7.64 sec)
+[2024.10.30-08.51.43:316][882]AssetCheck: New page: Asset Save: PlayerInterfacer
+[2024.10.30-08.51.43:316][882]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/PlayerInterfacer.PlayerInterfacer
+[2024.10.30-08.51.44:869][994]LogSlate: Window 'PlayerInterfacer' being destroyed
+[2024.10.30-08.51.44:878][994]LogSlate: Window 'PlayerInterfacer' being destroyed
+[2024.10.30-08.51.44:928][994]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.51.44:928][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.51.44:935][994]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.51.44:935][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.51.57:246][870]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.30-08.51.57:246][870]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.51.57:246][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-08.51.57:551][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.54.45:365][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-08.54.45:411][741]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2024.10.30-08.54.45:411][741]LogSavePackage: Moving 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Saved/BP_Weapon_ComponentF7DF48D245C26C3BA90CC8A94A508C68.tmp' to 'C:/Users/nkive/Desktop/SCHOOL/CS310H_SP24/HW1/FA24-KivettN-EbertM/HW1_CS310H/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2024.10.30-08.54.45:423][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 7.70 sec)
+[2024.10.30-08.54.45:424][741]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2024.10.30-08.54.45:424][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.10.30-08.54.46:118][780]BlueprintLog: New page: Compile BP_Weapon_Component
+[2024.10.30-08.54.46:170][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.10.30-08.54.49:245][948]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.10.30-08.54.49:251][948]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.10.30-08.54.49:255][948]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-08.54.49:255][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-08.55.06:990][484]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.10.30-08.55.06:990][484]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-08.55.06:990][484]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
