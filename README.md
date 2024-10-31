@@ -75,3 +75,11 @@ Required Assets/Plugins: n/a
    https://www.youtube.com/watch?v=uI5ps5DbFgI
    
    https://www.youtube.com/watch?v=K1vVbwMJCTQ
+
+   ## Meeting Days
+
+   10/24/24
+
+   10/29/24
+
+   10/31/24
