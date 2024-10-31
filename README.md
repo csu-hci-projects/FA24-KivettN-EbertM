@@ -37,11 +37,15 @@ Required Assets/Plugins: n/a
   Quit: Exits the game.
   
 ## Gameplay Overview:
-  Levels: Three levels, with the first two as gameplay levels featuring unique layouts and challenges, followed by a third level that       loops back to the menu after completion.
+  Levels: Three levels in total.
   
-  Objectives: Destroy all targets in each level to progress.
-  
-  Hazards: Hazards reduce player health on contact; level restarts if health reaches 0.
+   Level 1: Menu scene with start and quit options.
+   
+   Levels 2 and 3: Gameplay levels with unique layouts, hazards, and targets.
+   
+  Objectives: Destroy all targets in each gameplay level to progress.
+
+  Hazards: Avoid or take damage from hazards, which reduce player health on contact.
   
   ## Controls:
   Movement: [e.g., WASD keys]
