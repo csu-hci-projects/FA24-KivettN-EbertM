@@ -7,6 +7,8 @@
 
 # Team Members and Contributions
 
+### Important Note: Max's device does not work well with Unreal Engine so most work was done on Noah's github and device by both parties
+
 # Max:
 Developed the menu (Level 1) with a start and quit button.
 Implemented level transition functionality between levels.
