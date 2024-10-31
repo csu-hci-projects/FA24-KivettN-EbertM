@@ -48,11 +48,11 @@ Required Assets/Plugins: n/a
   Hazards: Avoid or take damage from hazards, which reduce player health on contact.
   
   ## Controls:
-  Movement: [e.g., WASD keys]
+  Movement: WASD keys
   
-  Fire: [e.g., Left Mouse Button]
+  Fire: Left Mouse Button
   
-  Quit to Menu: [Key bind if available]
+  Start and Quit: Left Mouse Button
   
 ## Game Mechanics:
   Player Health: Begins at 100. Colliding with hazards decreases health, and on reaching 0, the level restarts.
