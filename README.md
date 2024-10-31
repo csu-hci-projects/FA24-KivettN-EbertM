@@ -33,7 +33,9 @@ Required Assets/Plugins: n/a
   Launch the game from the menu scene (Level 1).
 
  Options include:
+  
   Start: Loads the first playable level.
+  
   Quit: Exits the game.
   
 ## Gameplay Overview:
