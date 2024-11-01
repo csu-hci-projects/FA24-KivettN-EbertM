@@ -11,17 +11,30 @@
 
 # Max:
 Developed the menu (Level 1) with a start and quit button.
-Implemented level transition functionality between levels.
+
+Could not Implemented level transition functionality between levels.
+
 Set up targets and ammo pickups.
+
 Coded the ammo system to display ammo count and restrict shooting when out of ammo.
-Designed Level 3 gameplay layout, and loop back to Level 1.
+
+Designed Level 3 gameplay layout
+
+Could not loop back to Level 1.
 
 # Noah:
-Designed and implemented hazards that reduce player health on collision.
-Created the health system for the player, with automatic restart on death.
+Designed and implemented hazards 
+
+Could not have hazards reduce player health on collision.
+
+Created the health system for the player
+
 Implemented health pickups and capped health at 100.
-Set up the target health system to handle target destruction at zero health.
+
+Could not set up the target health system to handle target destruction at zero health.
+
 Designed Level 2 gameplay layout.
+
 Project Setup and Dependancies
 
 
