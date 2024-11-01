@@ -62,7 +62,7 @@ Required Assets/Plugins: n/a
    
   Objectives: Destroy all targets in each gameplay level to progress.
 
-  Hazards: Avoid or take damage from hazards, which reduce player health on contact.
+  Hazards: Avoid or take damage from hazards, which reduce player health on contact. Could not get functuon.
   
   ## Controls:
   Movement: WASD keys
@@ -72,16 +72,20 @@ Required Assets/Plugins: n/a
   Start and Quit: Left Mouse Button
   
 ## Game Mechanics:
-  Player Health: Begins at 100. Colliding with hazards decreases health, and on reaching 0, the level restarts.
+  Player Health: Caps at 100. Gains health from pickups.
+  
+  Does not have function for colliding with hazards decreases health, and on reaching 0, the level restarts.
   
   Ammo: Limited ammo that decreases with each shot. Ammo pickups replenish ammo count.
   
-  Targets: Each target has 100 health, reducing with each shot until destroyed.
+  Targets: Targets are what stops the level, can be destroyed.
+  
+  Does not have each target has 100 health, reducing with each shot until destroyed.
   
   Pickups: Distinct mesh visuals for both ammo and health pickups, which increase ammo or health on contact. Health caps at 100.
 
   ## Gameplay
-   Gameplay is fairly basic, following a level-based method after the start level. You use your available rifle pickup, and while avoiding losing all your health by avoiding hazards, and picking up health packs, you want to eliminate targets health and destroy all the targets with your available ammo, using ammo pickups as well. You do this for two levels to complete the game. 
+   Gameplay is fairly basic, following a level-based method after the start level. You use your available rifle pickup, and picking up health packs, you want to eliminate targets and destroy all the targets with your available ammo, using ammo pickups as well. You do this for two levels to complete the game. 
 
    ## External Resources
    Youtube:
