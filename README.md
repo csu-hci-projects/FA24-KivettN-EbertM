@@ -103,7 +103,8 @@ Required Assets/Plugins: n/a
 
    10/31/24
 
-   ## Submission Videos
+   ## Submission Materials
 
-   Demo -
-   Blueprints - https://www.youtube.com/watch?v=pEfII-39xHw
+   Demo - https://www.youtube.com/watch?v=NGOkwCnjFSg&ab_channel=MaxEbert <br>
+   Blueprints - https://www.youtube.com/watch?v=pEfII-39xHw <br>
+   Project .zip - https://drive.google.com/file/d/1vB3DPBffD9RxTh_KyFXRJPmOSOF8NMZJ/view?usp=drive_link <br>
