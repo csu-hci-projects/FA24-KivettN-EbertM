@@ -80,6 +80,6 @@ Required Assets/Plugins: n/a
 
    ## Submission Materials
 
-   Demo - <br>
+   Demo - https://youtu.be/Tuanx0YdwPo<br>
    Blueprints - <br>
    Project .zip - <br>
