@@ -82,4 +82,4 @@ Required Assets/Plugins: n/a
 
    Demo - https://youtu.be/Tuanx0YdwPo<br>
    Blueprints - <br>
-   Project .zip - <br>
+   Project .zip - https://drive.google.com/file/d/1bj4EZoS9nC9_hPYjGz96wMYwvNFeCTEd/view?usp=sharing<br>
