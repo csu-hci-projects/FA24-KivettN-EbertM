@@ -81,5 +81,5 @@ Required Assets/Plugins: n/a
    ## Submission Materials
 
    Demo - https://youtu.be/Tuanx0YdwPo<br>
-   Blueprints - <br>
+   Blueprints - https://youtu.be/RWzYlBKH69c<br>
    Project .zip - https://drive.google.com/file/d/1bj4EZoS9nC9_hPYjGz96wMYwvNFeCTEd/view?usp=sharing<br>
